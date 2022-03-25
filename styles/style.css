@@ -35,6 +35,7 @@
 
 }
 
+
 .menu__itens{
   list-style: none;
  
@@ -48,18 +49,9 @@
 }
 
 .menu__item:hover{
-  width: 100%;
   background: white;
-  
-  
-  
   color: rgb(84, 196, 121);
   
-  
-  
-  
-  
-
 }
 .close{
   position: fixed;
@@ -422,6 +414,51 @@ padding: 15px;
 .footer_text{
   padding-top: 5px;
   border-top: 2px solid white;
+}
+@media(max-width:1000px){
+  
+  .Section_container{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .Section_container-Text--Paragraph{
+    
+
+    font-size:15px;
+    font-weight:500;
+  }
+  #img-1{
+    box-shadow: 6px 9px 0.5px #00000014;
+      right: 140px;
+      bottom: -300px;
+      z-index: 1;
+  }
+  #img-2{
+    box-shadow: 6px 9px 0.5px #00000014;
+     right: 250px;
+     bottom: -350px;
+      z-index: 3;
+  }
+  #img-3{
+    box-shadow: 6px 9px 0.5px #00000014;
+    right: 340px;
+    bottom: -300px;
+      z-index: 2;
+  }
+  .Section_Images-item{
+    width: 170px;
+  
+  }
+  .section_card{
+    width: 150px;
+    height: 300px;
+    line-height: 20px;
+    font-size:12px;
+    padding:10px 0;
+    
+  }
+ 
 }
 
 @media(max-width:600px){
