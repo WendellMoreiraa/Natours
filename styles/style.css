@@ -418,31 +418,36 @@ padding: 15px;
 @media(max-width:1000px){
   
   .Section_container{
-    display: flex;
-    justify-content: center;
+    height:60vh;
+  }
+  .Section_Title{
+    margin-top:50px;
+  }
     
+  .Section_container-Text--title{
+    text-align: center;
+
   }
   .Section_container-Text--Paragraph{
-    
-
-    font-size:15px;
+    text-align: justify;
+    font-size:20px;
     font-weight:500;
   }
   #img-1{
     box-shadow: 6px 9px 0.5px #00000014;
-      right: 140px;
+      right: 277px;
       bottom: -300px;
       z-index: 1;
   }
   #img-2{
     box-shadow: 6px 9px 0.5px #00000014;
-     right: 250px;
+     right: 348px;
      bottom: -350px;
       z-index: 3;
   }
   #img-3{
     box-shadow: 6px 9px 0.5px #00000014;
-    right: 340px;
+    right: 454px;
     bottom: -300px;
       z-index: 2;
   }
@@ -451,15 +456,25 @@ padding: 15px;
   
   }
   .section_card{
-    width: 150px;
-    height: 300px;
+    width: 250px;
+    height: 400px;
     line-height: 20px;
-    font-size:12px;
-    padding:10px 0;
+    font-size:18px;
     
+    
+    
+  }
+  .section_card > span{
+
+    font-weight: 400;
+  }
+  .section_2{
+    height: 55vh;
+
   }
  
 }
+
 
 @media(max-width:600px){
   body{
@@ -486,11 +501,12 @@ padding: 15px;
   
   }
   .Section_Title{
+
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 150px;
-    margin-bottom: 30px;
-    text-align: center;
+    
+    
     font-size: 25px;
     color: #55C57A;
   }
@@ -505,10 +521,16 @@ padding: 15px;
     align-items: center;
     height: 100vh;
   }
+  .Section_container-Text--title{
+    margin: 20px 20px;
+    text-align: center;
+  }
   .Section_container-Text--Paragraph{
+    margin: 20px 20px;
+    text-align: center;
     font-weight: 600;
     line-height: 30px;
-    font-size:  14px;
+    font-size:  13px;
     margin-bottom: 10px;
   }
   .Section{
@@ -535,7 +557,7 @@ padding: 15px;
   }
   .section_cards{
    
-    height: 317vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -544,9 +566,12 @@ padding: 15px;
   
   }
   .section_card {
-    padding-bottom: 100px;
-    line-height: 35px;
+    
+    line-height: 15px;
     margin-bottom: 20px;
+    
+    
+    
   }
   .section_card:not(:last-child) {
     margin-right: 0;
@@ -557,14 +582,22 @@ padding: 15px;
     align-items: center;
     justify-content: center;
     padding: 32px;
+    margin: 0;
     
   }
   .section_2{
     height: 300vh;
     margin-bottom: 50px; 
   }
+  .section_2 > h2{
+    font-size: 25px;
+  }
   .section_tour{
     margin-bottom: 30px;
+    margin-left: 0;
+  }
+  .tour__3{
+    margin-left: 0;
   }
   .formulario{
    background-image: none;
