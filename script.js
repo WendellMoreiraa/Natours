@@ -12,6 +12,7 @@ const close = document.querySelector('.close').addEventListener('click', functio
     menu.style.display = 'none'
     var body = document.querySelector('body')
     body.style.overflow = 'visible'
+    body.style.padding = '2rem'
    
 })
 
